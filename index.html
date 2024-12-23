@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Infotech</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Basic Body and Background Styling */
+        body {
+            background-image: url('homepage.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #000;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+       
+
+        /* Header Styling */
+        .header {
+            background-color: orange;
+            padding: 10px 30px;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo Styling (Side by Side with Text) */
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 50px; /* Adjust logo size */
+            margin-right: 10px; /* Space between logo and text */
+        }
+        .logo h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Navigation Styling */
+        .nav-link {
+            color: #000;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .content {
+            padding: 30px 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: left; 
+            align-items: center; 
+            height: 100%; 
+        }
+
+        
+        .btn-custom {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+        }
+
+       
+        .footer {
+            background-color: #222;
+            color: #ddd;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto; /* Pushes footer to the bottom */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <!-- Logo and Text Side by Side -->
+            <img src="logo.jpeg" alt="Advance Infotech Logo">
+            <h1>Advance Infotech</h1>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="enrollment.html" class="nav-link">Enrollment</a></li>
+                <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content">
+            <h2>WELCOME TO ADVANCE INFOTECH</h2>
+            <p>Empowering individuals with cutting-edge computer skills through expert-guided Courses and practical training....</p>
+            <h5>“Learn, Grow, Succeed........”</h5>
+            <p>Unlock your potential with our industry-focused courses designed for every skill level. Advance your career with hands-on training and expert guidance in cutting-edge technologies.</p>
+            <a href="courses.html" class="btn btn-custom">Explore Our Courses</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Advanced Computer Education. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
